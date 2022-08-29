@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first__section{
+border: 2px solid red;
+width: 100%;
+}
+.first__section .navbar{
+    width: 100%;
+    height: 77px;
+    background-color: orangered;
+}
+.first__section .navbar img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.second__class h1{
+    text-shadow:4px 4px 5px blue;
+    font-size: 4rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.third__class{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 30px 20px;
+    justify-content: center;
+    column-gap: 20px;
+}
+.third__class img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.third__class h1{
+    color: orangered;
+    font-size: 55px;
+}
+.third__class p{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.third__class button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background:  rgb(236, 59, 9);
+    border: none;
+    font-size: large;
+   padding: 10px 30px;
+   margin-top: 45px;
+}
+.third__class button a{
+    text-decoration: none;
+    color: white;
+}
+.third__class button:hover{
+    cursor: pointer;
+    background: black;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    column-gap: 20px;
+    padding: 20px 20px;
+}
+.card .github{
+    flex: 1;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+
+.card .github img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.card .github h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+}
+.card .github p{
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.card .github button{
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(236, 59, 9);
+    background: white;
+   margin-top: 35px;
+}
+.card .github button a{
+    color: rgb(236, 59, 9);
+    text-decoration: none;
+}
+.facebook{
+ padding: 20px;
+    background-color: orangered;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    flex: 1;
+}
+.facebook img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.facebook h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+}
+.facebook p{
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.facebook button{
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(236, 59, 9);
+    background: white;
+   margin-top: 15px;
+}
+.facebook button a{
+    color: rgb(236, 59, 9);
+    text-decoration: none;
+}
+.design{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    flex: 1;
+    padding: 20px;
+}
+.design img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.design h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+}
+.design p{
+    font-weight:1px ;
+    border: 10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  margin-top: 30px;
+}
+.design button{
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 27px;
+    border: none;
+    color: rgb(236, 59, 9);
+    background: white;
+   margin-top: 0px;
+}
+.design button a{
+    color: rgb(236, 59, 9);
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+  }
+  .footer h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     padding-top: 10px;
+     color: white;
+     font-weight: 1px;
+     font-size: x-large;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .footer p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 575px;
+  }
+  .footer p a {
+    color: rgb(255, 160, 40);
+  }
+  .footer p a:hover {
+    text-decoration: none;
+  }
+  @media screen and (max-width:560px) {
+    .second__class h1{
+        font-size: 1rem;
+    padding: 10px;
+    }
+    .third__class .pic img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+   
+    .first__section .navbar{
+        height: 77px;
+        background-color: orangered;
+    }
+    .first__section .navbar img{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .third__class{
+        flex-direction: column;
+    }
+    .third__class h1{
+        font-size: 1.2rem;
+    }
+    .third__class h1 br{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0px;
+    }
+    .first__section .navbar img:last-child{
+        display: none;
+    }
+  }
